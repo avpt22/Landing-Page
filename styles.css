@@ -2,15 +2,14 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
-    height: 100%;
-
+    
 }
 .header {
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
     justify-content: space-around;
-    padding: 16px 0px;
+    padding: 16px;
     height: 40px;
 }
 .header-logo {
@@ -40,8 +39,13 @@ a {
     color: #e7e5eb;
     text-decoration: none;
 }
-li {
+ul {
     list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    padding: 16px;
 }
 .section1 {
     bacground-color: white;
