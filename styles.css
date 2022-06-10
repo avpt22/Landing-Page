@@ -56,6 +56,10 @@ body {
     margin-top: 10px;
 
 }
+.hero-text button:hover {
+    background-color: #f9faf8;
+    color: #eb8900;
+}
 .hero-img img {
     background-color: lightgrey;
     width: 600px;
@@ -66,11 +70,16 @@ body {
 a {
     color: #e7e5eb;
     text-decoration: none;
-}  
+    
+} 
+a:hover {
+    text-decoration: underline #eb8900;
+    color: #eb8900;
+} 
 ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-right: -150px;
     font-size: 18px;
 } 
