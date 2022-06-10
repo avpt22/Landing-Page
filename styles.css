@@ -68,6 +68,11 @@ background-color: #e5e7eb;
 .footer {
     background-color: #1f2937;
     color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    
 }
 .box1, .box2, .box3 {
     border: solid 3px #eb8900;
