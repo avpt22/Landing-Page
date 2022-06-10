@@ -47,6 +47,7 @@ body {
 .hero-text button {
     background-color: #eb8900;
     color: #f9faf8;
+    border: solid white;
     width: 150px;
     height: 50px;
     border-radius: 10px;
@@ -59,6 +60,7 @@ body {
 .hero-text button:hover {
     background-color: #f9faf8;
     color: #eb8900;
+    border: solid #eb8900;
 }
 .hero-img img {
     background-color: lightgrey;
@@ -94,16 +96,55 @@ li {
 .section1 h2 {
     font-size: 36px;
     font-weight: bolder;
+    display: flex;
 }
 .section2 {
     background-color: #e5e7eb;
     height: 400px;
+    display: flex;
+   
 }
 .section3 {
     background-color: white;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
 }
 .box {
     background-color: #eb8900;
+    height: 180px;
+    width: 60%; 
+    border-radius: 10px;
+}
+.box h3 {
+    font-size: 24px;
+    margin-left: 12%;;
+    margin-top: 50px;
+    width: 400px;
+}
+.box p {
+    font-size: 18px;
+    margin-left: 12%;
+    margin-top: -10px;
+    width: 400px;
+}
+.button button {
+    background-color: #eb8900;
+    color: #f9faf8;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: solid white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -60px;
+    margin-left: -200%;
+}
+.button button:hover {
+    background-color: #f9faf8;
+    color: #eb8900;
+    border: solid #eb8900;
 }
 .footer {
     background-color: #1f2937;
