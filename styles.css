@@ -22,9 +22,12 @@ body {
 }
 .main-title {
     color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
 }
 .hero-text p {
     color: #e7e5eb; 
+    
 }
 .hero-text button {
     background-color: #3882f6;
