@@ -6,15 +6,16 @@ body {
 }
 .header {
     background-color: #1f2937;
-    color: #f9faf8;
+    color:#f9faf8;
     display: flex;
     justify-content: space-around;
     padding: 16px;
-    height: 40px;
+    height: 50px;
 }
 .header-logo {
     font-size: 24px;
     align-self: center;
+    margin: 16px;
 }
 .hero-section {
     background-color: #1f2937;
@@ -30,7 +31,7 @@ body {
     
 }
 .hero-text button {
-    background-color: #3882f6;
+    background-color: #eb8900;
     color: #f9faf8;
 }
 .hero-img img {
@@ -41,14 +42,14 @@ body {
 a {
     color: #e7e5eb;
     text-decoration: none;
-}
+}  
 ul {
     list-style: none;
     display: flex;
-    justify-content: space-around;
-}
+    justify-content: center;
+} 
 li {
-    padding: 16px;
+    padding: 0px 20px;
 }
 .section1 {
     bacground-color: white;
@@ -62,12 +63,12 @@ background-color: #e5e7eb;
     background-color: white;
 }
 .box {
-    background-color: #3882f6;
+    background-color: #eb8900;
 }
 .footer {
     background-color: #1f2937;
     color: #f9faf8;
 }
 .box1, .box2, .box3 {
-    border: solid 3px #3882f6;
+    border: solid 3px #eb8900;
 }
