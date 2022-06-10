@@ -2,6 +2,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
     
 }
 .header {
@@ -52,12 +53,17 @@ li {
     padding: 0px 20px;
 }
 .section1 {
-    bacground-color: white;
+    background-color: white;
     color: #1f2937;
     height: 500px;
 }
+.section1 h2 {
+    font-size: 36px;
+    font-weight: bolder;
+}
 .section2 {
-background-color: #e5e7eb;
+    background-color: #e5e7eb;
+    height: 400px;
 }
 .section3 {
     background-color: white;
