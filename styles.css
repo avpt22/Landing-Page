@@ -15,7 +15,7 @@ body {
 }
 .hero-section {
     background-color: #1f2937;
-    height: 600px;
+    height: 500px;
 }
 .main-title {
     color: #f9faf8;
@@ -42,10 +42,10 @@ li {
 .section1 {
     bacground-color: white;
     color: #1f2937;
-    height: 600px;
+    height: 500px;
 }
 .section2 {
-
+background-color: #e5e7eb;
 }
 .section3 {
 
