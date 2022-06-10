@@ -50,7 +50,9 @@ background-color: #e5e7eb;
 .section3 {
     background-color: white;
 }
-
+.box {
+    background-color: #3882f6;
+}
 .footer {
     background-color: #1f2937;
     color: #f9faf8;
