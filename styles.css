@@ -36,10 +36,10 @@ body {
    
 }
 .hero-text p {
-    color: #e7e5eb; 
+    color: #e7e5eb;
     justify-content: center;
-    margin-left: 120px; 
-    width: 700px;
+    margin-left: 120px;
+    width: 458px;
     font-size: 18px;
     margin-top: -60px;
 
@@ -90,59 +90,59 @@ li {
 }
 
 
-.section1 {
-    background-color: white;
-    color: #1f2937;
-    height: 500px;
-    
-  
-}
-h2 {
+.section1 .title {
     font-size: 36px;
     font-weight: bolder;
     text-align: center;
-    height: 36px;
-    padding: 16px;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+    padding: 10px;
+    margin: 30px;
 }
-.text {
-    display: flex; */
-    /* justify-content: center; */
-    align-self: flex-end;
-    font-size: 18px;
-    /* text-align: center; */
-    margin-bottom: -288px;
-    margin-right: -109px;
-    height: 50px;
-    width: 150px;
-    padding: 16px;
-    
-}
-.box1 {
+.container {
     display: flex;
-    padding: 50px;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    align-content: center;
+    gap: 52px;
+}
+.dog1, .dog2, .dog3, .dog4 {
+    max-width: 200px;
+    margin: 20px;
+}
+.section1 img {
+    width: 200px;
+    height: 200px;
+    border: solid #eb8900;
+    border-radius: 10px;
+}
+.section1 img:hover {
+    border: solid #1f2937;
+}
+.section1 .text {
+    font-size: 24px;
+    text-align: center;
+    display: block;
 }
 
-.box1 img{
-    width: 150px;
-    height: 150px;
-    border-radius: 15px;
-    border: solid 3px #eb8900;
-}
+
 .section2 {
     background-color: #e5e7eb;
-    height: 400px;
-    display: flex;
-   
+    padding: 100px;
 }
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 .text {
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .section3 {
     background-color: white;
     display: flex;
@@ -160,7 +160,7 @@ h2 {
     font-size: 24px;
     margin-left: 12%;;
     margin-top: 50px;
-    width: 400px;
+    width: 450px;
 }
 .box p {
     font-size: 18px;
@@ -177,7 +177,7 @@ h2 {
     border: solid white;
     font-size: 20px;
     font-weight: bold;
-    margin-top: -30px;
+    margin-top: 5px;
     margin-left: -200%;
 }
 .button button:hover {
